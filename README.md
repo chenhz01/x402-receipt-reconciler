@@ -2,6 +2,8 @@
 
 Two JSONL streams in — payment intents and payment receipts — one verdict out: was every intent settled exactly once? This is a pure-validation audit tool for x402-style agent payments. No network, no keys, no fund movement. Use it when you must prove your payment logs agree with themselves.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Agent-payment stacks (x402-style HTTP 402 flows) produce *payment intents* in one component and *settlement receipts* in another. Between them, things go wrong quietly:
